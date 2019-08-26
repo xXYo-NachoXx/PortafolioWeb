@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Portafolio Carlos Gómez Segura</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="header">
+		  <a href="#default" class="logo">Portafolio II Semestre 2019</a>
+		  <div class="header-right">
+
+		  	<button class="accordion">Tareas</button>
+			<div class="panel">
+			  <p>Consisten en las asignaciones teóricas del curso</p>
+			</div>
+
+			<button class="accordion">Prácticas</button>
+			<div class="panel">
+			  <p>Consisten en las asignaciones de la clase y trabajo en clase</p>
+			</div>
+
+
+			<button class="accordion">Laboratorios</button>
+			<div class="panel">
+			  <p>Trabajos prácticos para trabajo extraclase</p>
+			</div>
+	    
+		  </div>
+		</div>
+
+		<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var panel = this.nextElementSibling;
+		    if (panel.style.display === "block") {
+		      panel.style.display = "none";
+		    } else {
+		      panel.style.display = "block";
+		    }
+		  });
+		}
+		</script>
+
+
+		<div>
+			<header>
+				<center> <h2>Inicio</h2> </center>
+			</header>
+
+			<div class="row">
+  				<div class="column" style="background-color:#81D8D0;">
+
+			<article> <h4> <center> Información de estudiante  </center> </h4></article><center>
+			<table style="width:40%">
+			  <tr>
+			    <th>Dato</th>
+			    <th>Contenido</th> 
+			  </tr>
+			   <tr>
+			    <td>Curso</td>
+			    <td>Introducción al desarrollo de aplicaciones WEB</td>
+			  </tr>
+			   <tr>
+			    <td>Código</td>
+			    <td>IC8057</td>
+			  </tr>
+
+			  <tr>
+			    <td>Nombre</td>
+			    <td>Carlos Adrián Gómez Segura</td>
+			  </tr>
+			  <tr>
+			    <td>Carné</td>
+			    <td>2017076118</td>
+			  </tr>
+			  <tr>
+			    <td>Correo</td>
+			    <td>cagsegura0499@hotmail.com</td>
+			  </tr>
+			  <tr>
+			    <td>Celular</td>
+			    <td>86615654</td>
+			  </tr>
+			</table>
+			</center>
+
+			 </div>
+  				<div class="column" style="background-color:#D9828B;">
+
+
+			<aside><h5><center>Foto</center></h5></aside>
+				<center><div class="container"><center>
+				  <img src="images/foto.png" alt="Avatar" class="image">
+				  <div class="overlay">
+				    <div class="text">Carlos Gómez</div>
+				  </div>
+				  </center>
+				</div>
+			  </div>
+			</div>
+
+
+			<h2> <center> <h2>  Lista de actividades  </h2></center></h2>
+			<center>
+			<div class="dropdown">
+			  <button class="dropbtn">Tareas</button>
+			  <div class="dropdown-content">
+			    <a href="trabajos/fullstack.pdf">¿Full or Specialist WebDev?</a>
+			    <a href="trabajos/timeline.jpg">Internet Evolution Timeline</a>
+			  </div>
+			</div>
+
+			<div class="dropdown">
+			  <button class="dropbtn">Prácticas</button>
+			  <div class="dropdown-content">
+			    <a href="practica3.html">Semana 3: Sintaxis HTML5 y CSS3</a>
+			    <a href="calendariocarlos.html">Semana 5: Calendario JS</a>
+			    <a href="conversor.html">Semana 5: Conversor JS</a>
+			  </div>
+			</div>
+
+
+			<div class="dropdown">
+			  <button class="dropbtn">Laboratorios</button>
+			  <div class="dropdown-content">
+			  </div>
+			</div>
+			</center>
+
+		</div>
+		
+	</body>
+</html>
+

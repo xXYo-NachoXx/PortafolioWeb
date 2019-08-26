@@ -1,0 +1,70 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Calendario Carlos</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/stylecalendario.css" media="all"/>
+	<script type="text/javascript" src="js/calendario.js"></script>
+</head>
+<body>
+
+<center>
+	<h1>Mi calendario Carlos </h1>
+</center>
+
+<center>
+
+<div id="calendario">
+	<button id="anterior" onclick="mesantes()"> </button>
+	
+	<h2  id="titulos">   </h2> 
+	<button id="posterior"onclick="mesdespues()"></button>
+	<div id="dias">
+		<table  id="diasc">
+			<tr id="fila0"><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+			<tr id="fila1"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr id="fila2"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr id="fila3"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr id="fila4"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr id="fila5"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr id="fila6"><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+		</table>
+		
+	</div>
+	<div id="fechaactual"> <i onclick="actualizar()"> <p> Hoy: </p>  </i></div>
+
+	<div id="buscafecha">
+		<form action="#" name="buscar">
+			<p>Buscar  Mes
+				<select name="buscames">
+					<option value="0">Enero</option>
+					<option value="1">Febrero</option>
+					<option value="2">Marzo</option>
+					<option value="3">Abril</option>
+					<option value="4">Mayo</option>
+					<option value="5">Junio</option>
+					<option value="6">Julio</option>
+					<option value="7">Agosto</option>
+					<option value="8">Septiembre</option>
+					<option value="8">Octubre</option>
+					<option value="8">Noviembre</option>
+					<option value="8">Diciembre</option>
+				</select>
+				 Año
+				<input type="text" name="buscaanno" maxlength="4" size="4"/>
+				<input type="button" value="Buscar" onclick="mifecha()" />
+			</p>
+		</form>
+		
+	</div>
+</div>
+</center>
+
+</body>
+
+
+</html>

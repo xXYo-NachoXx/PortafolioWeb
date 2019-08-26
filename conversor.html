@@ -1,0 +1,184 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Conversor de divisas </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/styleconversor.css" media="all"/>
+	<script type="text/javascript" src="js/conversorfun.js"></script>
+
+</head>
+<body>
+
+<center>
+	<h1>Mi conversor</h1>
+</center>
+<center>
+
+<div id="calendario">
+	<div id="dias">
+		<table  id="diasc">
+			<tr id="fila0">
+				<th><img class = "thumbnail" src="images/flags/brazil.png" alt="brazil"></th>
+				<th><img class = "thumbnail" src="images/flags/china.png" alt="china"></th>
+				<th><img class = "thumbnail" src="images/flags/japan.png" alt="japan"></th>
+				<th><img class = "thumbnail" src="images/flags/russia.png" alt="rusia"></th>
+				<th><img class = "thumbnail" src="images/flags/safrica.png" alt="africa"></th>
+				<th><img class = "thumbnail" src="images/flags/cr.png" alt="costarica"></th>
+				<th><img class = "thumbnail" src="images/flags/germany.png" alt="alemania"></th>
+				<th><img class = "thumbnail" src="images/flags/uk.png" alt="inglaterra"></th>
+				<th><img class = "thumbnail" src="images/flags/us.png" alt="estados"></th>
+				<th><img class = "thumbnail" src="images/flags/uruguay.png" alt="uruguay"></th>
+			</tr>
+
+			<tr id="fila1">
+				<td>Brasil        </td>
+				<td>China         </td>
+				<td>Japón         </td>
+				<td>Rusia         </td>
+				<td>Sudáfrica     </td>
+				<td>Costa Rica    </td>
+				<td>Alemania      </td>
+				<td>Inglaterra    </td>
+				<td>Estados <br> Unidos</td>
+				<td>Uruguay       </td>
+			</tr>
+			<tr id="fila2">
+				<td>Real <br> brasileño</td>
+				<td>Yuan</td>
+				<td>Yen</td>
+				<td>Rublo <br> ruso</td>
+				<td>Rand</td>
+				<td>Colón</td>
+				<td>Euro</td>
+				<td>Libra <br> Esterlina</td>
+				<td>Dólar</td>
+				<td>Peso</td>
+			</tr>
+			<tr id="fila3">
+				<td>
+					<span class="rating">
+						<input type="checkbox" class="rating-input"	id="star1" name="rating-input-1" >
+						<label for="star1" class="rating-star"></label>
+					</span>
+				</td>
+				<td>
+					<span class="rating">
+						<input type="checkbox" class="rating-input"	id="star2" name="rating-input-1">
+						<label for="star2" class="rating-star"></label>
+					</span>
+				</td>
+				<td>
+					<span class="rating">
+						<input type="checkbox" class="rating-input"	id="star3" name="rating-input-1">
+						<label for="star3" class="rating-star"></label>
+					</span>
+				</td>
+				<td>
+					<span class="rating">
+						<input type="checkbox" class="rating-input"	id="star4" name="rating-input-1">
+						<label for="star4" class="rating-star"></label>
+					</span>
+				</td>
+				<td>
+					<span class="rating">
+						<input type="checkbox" class="rating-input"	id="star5" name="rating-input-1">
+						<label for="star5" class="rating-star"></label>
+					</span>
+				</td>
+				<td>
+					<span class="rating">
+						<input type="checkbox" class="rating-input"	id="star6" name="rating-input-1">
+						<label for="star6" class="rating-star"></label>
+					</span>
+				</td>
+				<td>
+					<span class="rating">
+						<input type="checkbox" class="rating-input"	id="star7" name="rating-input-1">
+						<label for="star7" class="rating-star"></label>
+					</span>
+				</td>
+				<td>
+					<span class="rating">
+						<input type="checkbox" class="rating-input"	id="star8" name="rating-input-1">
+						<label for="star8" class="rating-star"></label>
+					</span>
+				</td>
+				<td>
+					<span class="rating">
+						<input type="checkbox" class="rating-input"	id="star9" name="rating-input-1">
+						<label for="star9" class="rating-star"></label>
+					</span>
+				</td>
+				<td>
+					<span class="rating">
+						<input type="checkbox" class="rating-input"	id="star10" name="rating-input-1">
+						<label for="star10" class="rating-star"></label>
+					</span>
+				</td>
+			</tr>	
+
+			<tr id="fila5">
+				<td>
+					<input type="number" id="monedaBrasil" name="FirstName" value="" min="0" >
+				</td>
+				<td>
+					<input type="number" id="monedaChina" name="FirstName" value="" min="0" >
+				</td>
+				<td>
+					<input type="number" id="monedaJapon" name="FirstName" value="" min="0" >
+				</td>
+				<td>
+					<input type="number" id="monedaRusia" name="FirstName" value="" min="0" >
+				</td>
+				<td>
+					<input type="number" id="monedaSafrica" name="FirstName" value="" min="0" >
+				</td>
+				<td>
+					<input type="number" id="monedaCr" name="FirstName" value="" min="0" >
+				</td>
+				<td>
+					<input type="number" id="monedaAlemana" name="FirstName" value=""min="0"  >
+				</td>
+				<td>
+					<input type="number" id="monedaUk" name="FirstName" value="" min="0" >
+				</td>
+				<td>
+					<input type="number" id="monedaUs" name="FirstName" value="" min="0"  >
+				</td>
+				<td>
+					<input type="number" id="monedaUru" name="FirstName" value="" min="0" >
+				</td>
+			</tr>
+		
+		</table>
+		
+	</div>
+	
+
+</div>
+
+<br>   
+
+
+<button type = "reset" onclick="limpiar()" id="clear" name = "learn" value = "myimage">
+   <img src="images/clear.png" width="70%"  height="30%">
+</button>
+
+<button type = "submit" id="go" name = "learn" value = "myimage">
+   <img src="images/go.png" width="70%"  height="80%">
+</button>
+
+
+</center>
+
+
+
+
+</body>
+
+
+</html>
